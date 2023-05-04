@@ -1,0 +1,107 @@
+.wrapper_info {
+  .info_ld {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    @media only screen and (max-width: 600px) {
+      flex-direction: column
+    }
+    .background {
+      border-radius: 50%;
+      left: -35%;
+      position: absolute;
+      width: 2741px;
+      height: 2581.75px;
+      left: -567px;
+      top: 425px;
+  
+      background: radial-gradient(52.9% 52.9% at 43.78% 31.33%, #01D26E 0%, #125534 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      opacity: 0.1;
+      // filter: blur(5px);
+    }
+    .text_info {
+      width: 50%;
+      font-family: 'Times';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 120%;
+      /* or 56px */
+  
+      margin: 0 auto;
+      // padding-right: 15px;
+      text-align: justify;
+  
+      /* Color/Gray/1 */
+  
+      color: #101828;
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+      span {
+        font-family: 'Times';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+  
+        background: linear-gradient(90deg, #01D26E 1.91%, #00E0FF 98.31%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+    .button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  
+      width: 144px;
+      height: 51px;
+  
+      background: #01D26E;
+      border-radius: 30px;
+  
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 23px;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      /* Default/White */
+  
+      color: #FFFFFF;
+    }
+    .image_info {
+      width: 50%;
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+        margin-top: 16px
+      }
+      img {
+        width: 100%
+      }
+    }
+  }
+  .info_two {
+    background-color: #125534;
+    .title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 41px;
+      color: #FFFFFF;
+    }
+    .description {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #D0DADD;
+    }
+  }
+}

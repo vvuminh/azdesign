@@ -1,0 +1,14 @@
+.wrapper {
+  .slide {
+    position: relative;
+    .content {
+      position: absolute;
+      bottom: -75px;
+      left: 50%;
+      width: 20%;
+      height: 30%;
+      transform: translate(-50%, -50%);
+      background-color: yellow;
+    }
+  }
+}

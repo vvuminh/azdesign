@@ -1,0 +1,23 @@
+.home {
+  overflow-x: scroll; /* enable horizontal scrolling */
+  white-space: nowrap; /* prevent line breaks */
+  display: row;
+  .box_video_full {
+    width: 100%;
+    video {
+      width: 100%;
+      display: block
+    }
+  }
+  img {
+    display: block; /* display images in a row */
+    width: 100%; /* set the width of each image */
+    height: 100%; /* auto-adjust the height */
+    margin-right: 10px; /* add a small margin between images */
+  }
+}
+
+
+
+
+
